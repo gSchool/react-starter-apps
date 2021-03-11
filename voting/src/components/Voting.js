@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import './App.css';
 
 class Voting extends Component{
 	constructor(props){
@@ -9,7 +8,7 @@ class Voting extends Component{
 
 	render(){
 		return(
-			<div> Welcome to the Voting app </div>
+			<h1> Welcome to the Voting app </h1>
 		);
 	}
 }
